@@ -1,0 +1,8 @@
+<h2>Búsquedas</h2>
+<hr>
+<ul class="list-group">
+<!-- Aqui agregamos el [[routerLinkActiveOptions]="exact: true"] porque tenemos path vacio es decir que es la que se va a mostrar al inicio siempre, para que el boton no este siempre activo -->
+    <li routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" class="list-group-item">Buscar país</li>
+    <li routerLink="region" routerLinkActive="active" class="list-group-item">Buscar por región</li>
+    <li routerLink="capital" routerLinkActive="active" class="list-group-item">Buscar por capital</li>
+</ul>
